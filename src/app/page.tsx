@@ -38,7 +38,9 @@ export default function Home() {
           <div>
             <h1 className='font-bold'>events</h1>
             <br></br>
-            <p>24th Jan 2025 • Mainak & satabari's Wedding </p>
+            <p>
+              24th Jan 2025 - 26th Jan 2025 • Mainak & Satabari&apos;s Wedding{' '}
+            </p>
             <a href='/wedding-invitation' className='underline'>
               check invitation
             </a>

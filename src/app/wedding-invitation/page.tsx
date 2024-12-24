@@ -6,8 +6,15 @@ export default function Wedding() {
       <Head>
         <title>Wedding Invitation Mainak & Satabari</title>
       </Head>
-      <main className='flex min-h-screen flex-col items-center justify-between p-24'>
-        <div className='z-10 max-w-5xl w-full items-center font-mono text-sm'>
+      <main className='flex min-h-screen flex-col items-center justify-between p-24 font-mono  text-sm'>
+        <p className='max-w-5xl w-full'>
+          {' '}
+          <a href='/' className='underline'>
+            home
+          </a>{' '}
+          / <a href='#'>wedding-invitation</a>
+        </p>
+        <div className='max-w-5xl w-full items-center '>
           <p className='pb-4'>Wedding invitation of</p>
 
           <p className='text-2xl font-semibold'>Mainak & Satabari</p>
